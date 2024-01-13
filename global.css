@@ -1,0 +1,23 @@
+.container {
+  max-width: 1440px;
+  padding: 0 40px;
+  margin: auto;
+}
+
+.button {
+  padding: 16px 28px;
+  display: inline-flex;
+  padding: 16px 28px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  border-radius: 64px;
+  background: linear-gradient(10deg, #FF52AF 0%, #9F53FF 100%);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+}
+.button:hover {
+  background: #00f;
+}/*# sourceMappingURL=global.css.map */

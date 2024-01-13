@@ -1,0 +1,802 @@
+.container {
+  max-width: 1440px;
+  padding: 0 40px;
+  margin: auto;
+}
+
+.button, section .card.card3 a, section .sectionCard .card.card2 .heading a, main .mainBlock .leftBlock a {
+  padding: 16px 28px;
+  display: inline-flex;
+  padding: 16px 28px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  border-radius: 64px;
+  background: linear-gradient(10deg, #FF52AF 0%, #9F53FF 100%);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+}
+.button:hover, section .card.card3 a:hover, section .sectionCard .card.card2 .heading a:hover, main .mainBlock .leftBlock a:hover {
+  background: #00f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+nav {
+  padding: 28px 0;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+nav .navMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .navMenu .logo a {
+  text-decoration: none;
+  font-family: Lora;
+  font-size: 24px;
+  font-weight: 800;
+  background: linear-gradient(10deg, #FF52AF 0%, #9F53FF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+nav .navMenu .navList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 72px;
+       column-gap: 72px;
+}
+nav .navMenu .navList .menu-desktop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 72px;
+       column-gap: 72px;
+}
+nav .navMenu .navList .menu-desktop li {
+  list-style: none;
+  color: #220953;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+nav .navMenu .navList .menu-desktop li:hover {
+  background: linear-gradient(10deg, #FF52AF 0%, #9F53FF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+nav .navMenu .navList .mobile-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 22px;
+       column-gap: 22px;
+}
+nav .navMenu .navList .mobile-menu li {
+  list-style: none;
+  cursor: pointer;
+}
+nav .navMenu .navList .mobile-menu .hamburger {
+  display: none;
+}
+
+main .mainBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .mainBlock .leftBlock h1 {
+  max-width: 576px;
+  color: #220953;
+  font-family: Lora;
+  font-size: 96px;
+  font-weight: 500;
+  line-height: 130%;
+}
+main .mainBlock .leftBlock h1 span {
+  display: inline-block;
+  color: #fff;
+  font-family: Lora;
+  font-size: 96px;
+  font-weight: 500;
+  line-height: 130%;
+  border-radius: 16px;
+  background: linear-gradient(10deg, #FF52AF 0%, #9F53FF 100%);
+  padding: 0 13px;
+  transform: rotate(10deg);
+  flex-shrink: 0;
+}
+main .mainBlock .leftBlock p {
+  max-width: 417px;
+  color: #4B3E65;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+}
+main .mainBlock .leftBlock a {
+  color: #fff;
+  margin-top: 32px;
+}
+main .mainBlock .leftBlock .followUser {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 48px 0;
+  -moz-column-gap: 64px;
+       column-gap: 64px;
+}
+main .mainBlock .leftBlock .followUser .class,
+main .mainBlock .leftBlock .followUser .participants {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .mainBlock .leftBlock .followUser .class .heading,
+main .mainBlock .leftBlock .followUser .participants .heading {
+  color: #220953;
+  font-family: Lora;
+  font-size: 56px;
+  font-weight: 400;
+}
+main .mainBlock .leftBlock .followUser .class .text,
+main .mainBlock .leftBlock .followUser .participants .text {
+  color: #220953;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+}
+main .mainBlock .rightBlock img {
+  width: 500px;
+}
+
+section {
+  padding: 48px 0;
+}
+section .sectionCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section .sectionCard .card.card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+section .sectionCard .card.card1 .imgBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .sectionCard .card.card1 span {
+  color: #220953;
+  font-family: Lora;
+  font-size: 56px;
+  font-weight: 500;
+}
+section .sectionCard .card.card1 p {
+  max-width: 328px;
+  color: #220953;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+}
+section .sectionCard .card.card2 {
+  padding: 48px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+}
+section .sectionCard .card.card2 .imgBlock {
+  position: relative;
+}
+section .sectionCard .card.card2 .imgBlock .health {
+  position: absolute;
+  left: 0;
+  top: 75px;
+}
+section .sectionCard .card.card2 .imgBlock .description {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+}
+section .sectionCard .card.card2 .heading h2 {
+  max-width: 579px;
+  color: #220953;
+  font-family: Lora;
+  font-size: 60px;
+  font-weight: 400;
+}
+section .sectionCard .card.card2 .heading p {
+  max-width: 579px;
+  color: #4B3E65;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+}
+section .sectionCard .card.card2 .heading a {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 32px;
+}
+
+section .card.card3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 64px;
+       column-gap: 64px;
+}
+section .card.card3 h3 {
+  max-width: 396px;
+  color: #220953;
+  font-family: Lora;
+  font-size: 64px;
+  font-weight: 400;
+}
+section .card.card3 p {
+  max-width: 465px;
+  color: #4B3E65;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+}
+section .card.card3 a {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 32px;
+}
+section .card.card3 .rightBlock {
+  position: relative;
+}
+section .card.card3 .rightBlock .menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  position: absolute;
+  bottom: 165px;
+  left: 100px;
+  width: 376px;
+  height: 56px;
+}
+section .card.card3 .rightBlock .menu span {
+  font-family: Lora;
+  font-size: 20px;
+  font-weight: 800;
+  background: linear-gradient(10deg, #FF52AF 0%, #9F53FF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+section .card.card3 .rightBlock .menu .navMenu ul {
+  list-style: none;
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+section .card.card3 .rightBlock .menu .navMenu ul li {
+  cursor: pointer;
+}
+
+section .sectionMax {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 42px;
+}
+section .sectionMax .boxTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+section .sectionMax .boxTop img {
+  width: 220px;
+  height: 350px;
+  border-radius: 192px;
+  border: 10px solid #E5D9FD;
+}
+section .sectionMax .boxTop .heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 32px;
+}
+section .sectionMax .boxTop .heading h4 {
+  max-width: 396px;
+  color: #220953;
+  text-align: center;
+  font-family: Lora;
+  font-size: 64px;
+  font-weight: 400;
+}
+section .sectionMax .boxTop .heading h4 span {
+  background: linear-gradient(10deg, #FF52AF 0%, #9F53FF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Lora;
+  font-size: 64px;
+  font-weight: 400;
+}
+section .sectionMax .boxTop .heading a {
+  display: inline-flex;
+  padding: 17px 17px 16px 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 64px;
+  background: linear-gradient(10deg, #FF52AF 0%, #9F53FF 100%);
+  text-decoration: none;
+  transition: all 1s;
+}
+section .sectionMax .boxTop .heading a:hover {
+  background: #00f;
+  transform: translateY(-20px);
+  box-shadow: 5px 10px 5px #000;
+}
+section .sectionMax .boxTop .heading a img {
+  border: none;
+  width: 24px;
+  height: 24px;
+}
+section .sectionMax .boxBottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 43px;
+       column-gap: 43px;
+}
+section .sectionMax .boxBottom img {
+  width: 430px;
+  height: 226px;
+  border-radius: 192px;
+  border: 10px solid #E5D9FD;
+}
+section .sectionMax .boxBottom .yoga3 {
+  transform: rotate(15deg);
+}
+section .sectionMax .boxBottom .yoga4 {
+  transform: rotate(-15deg);
+}
+
+section .parent__subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 0;
+}
+section .parent__subscribe .subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 992px;
+  height: 375px;
+  background: linear-gradient(10deg, #FF52AF 0%, #9F53FF 100%);
+  border-radius: 32px;
+  flex-direction: column;
+  row-gap: 40px;
+}
+section .parent__subscribe .subscribe .heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 16px;
+}
+section .parent__subscribe .subscribe .heading h6 {
+  color: #fff;
+  text-align: center;
+  font-family: Lora;
+  font-size: 56px;
+  font-weight: 400;
+}
+section .parent__subscribe .subscribe .heading p {
+  max-width: 567px;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+}
+section .parent__subscribe .subscribe form {
+  max-width: 528px;
+  position: relative;
+}
+section .parent__subscribe .subscribe form input {
+  width: 528px;
+  height: 72px;
+  padding: 26px;
+  border: none;
+  border-radius: 48px;
+  background: #fff;
+  outline: 0;
+}
+section .parent__subscribe .subscribe form input::-moz-placeholder {
+  color: #A197B4;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+}
+section .parent__subscribe .subscribe form input::placeholder {
+  color: #A197B4;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+}
+section .parent__subscribe .subscribe form a {
+  position: absolute;
+  text-decoration: none;
+  top: 8px;
+  right: 10px;
+  display: inline-flex;
+  padding: 16px 28px;
+  align-items: center;
+  gap: 4px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 64px;
+  background: linear-gradient(10deg, #FF52AF 0%, #9F53FF 100%);
+  box-shadow: 0px 4px 12px 0px rgba(91, 10, 255, 0.25);
+  transition: all 0.7s;
+}
+section .parent__subscribe .subscribe form a:hover {
+  background: #5a5;
+  box-shadow: 3px 5px 10px #000;
+}
+
+footer {
+  padding: 64px 60px;
+  background: #1E0849;
+}
+footer .footer__parent .top__block {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer__parent .top__block .item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+footer .footer__parent .top__block .item span {
+  color: #fff;
+  font-family: Lora;
+  font-size: 24px;
+  font-weight: 400;
+}
+footer .footer__parent .top__block .item .footer__text p {
+  color: #A197B4;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+}
+footer .footer__parent .top__block .item.items span {
+  font-family: Lora;
+  font-size: 24px;
+  font-weight: 400;
+  background: linear-gradient(10deg, #FF52AF 0%, #9F53FF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer .footer__parent .top__block .item.items .footer__text p {
+  max-width: 244px;
+}
+footer .footer__parent .top__block .item.item1 .footer__text p {
+  max-width: 152px;
+}
+footer .footer__parent .top__block .item.item2 .footer__text p {
+  max-width: 146px;
+}
+footer .footer__parent .top__block .item.item3 .footer__text p {
+  max-width: 164px;
+}
+footer .footer__parent .ration {
+  width: 860px;
+  height: 1px;
+  background-color: #A197B4;
+  margin: 72px 0;
+}
+footer .footer__parent .contact {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer__parent .contact .author p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #A197B4;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+}
+footer .footer__parent .contact .contactUS {
+  display: flex;
+  -moz-column-gap: 33px;
+       column-gap: 33px;
+}
+
+@media screen and (max-width: 1024px) {
+  nav .navMenu .logo a {
+    font-size: 20px;
+  }
+  nav .navMenu .navList .menu-desktop li {
+    font-size: 13px;
+  }
+  main .mainBlock {
+    flex-direction: column;
+  }
+  main .mainBlock .leftBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  main .mainBlock .leftBlock h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  main .mainBlock .leftBlock h1 span {
+    font-size: 60px;
+  }
+  main .mainBlock .rightBlock img {
+    width: 480px;
+  }
+  section .sectionCard .card.card1 .imgBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section .sectionCard .card.card1 span {
+    font-size: 40px;
+  }
+  section .sectionCard .card.card1 img {
+    width: 300px;
+  }
+  section .sectionCard .card.card1 p {
+    max-width: 190px;
+    font-size: 10px;
+  }
+  section .sectionCard .card.card1 a img {
+    width: 100px;
+  }
+  section .sectionCard .card.card2 .imgBlock img {
+    width: 400px;
+  }
+  section .sectionCard .card.card2 .imgBlock a img {
+    width: 100px;
+  }
+  section .sectionCard .card.card2 .heading h2 {
+    font-size: 40px;
+  }
+  section .sectionCard .card.card2 .heading p {
+    font-size: 12px;
+  }
+  section .card.card3 .headingSection h3 {
+    font-size: 40px;
+  }
+  section .card.card3 .rightBlock img {
+    width: 400px;
+  }
+  section .card.card3 .rightBlock .menu {
+    display: none;
+  }
+  section .sectionMax .boxTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 32px;
+  }
+  section .sectionMax .boxTop img {
+    width: 190px;
+    height: 300px;
+  }
+  section .sectionMax .boxTop .heading {
+    order: -1;
+  }
+  section .sectionMax .boxTop .heading h4 {
+    max-width: 225px;
+    font-size: 32px;
+  }
+  section .sectionMax .boxTop .heading h4 span {
+    font-size: 32px;
+  }
+  section .sectionMax .boxTop .heading a {
+    margin-bottom: 30px;
+  }
+  section .sectionMax .boxBottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 45px;
+  }
+  section .sectionMax .boxBottom img {
+    width: 300px;
+    height: 170px;
+  }
+  section .parent__subscribe .subscribe {
+    width: 800px;
+    height: 350px;
+  }
+  section .parent__subscribe .subscribe .heading h6 {
+    font-size: 40px;
+  }
+  section .parent__subscribe .subscribe form input {
+    width: 340px;
+  }
+  footer {
+    padding: 64px 0;
+  }
+  footer .footer__block .ration {
+    width: 700px;
+  }
+}
+@media screen and (max-width: 768px) {
+  nav .navMenu .navList .menu-desktop {
+    display: none;
+  }
+  nav .navMenu .navList .mobile-menu .hamburger {
+    display: block;
+  }
+  main .mainBlock .leftBlock h1 {
+    font-size: 50px;
+  }
+  main .mainBlock .leftBlock h1 span {
+    font-size: 50px;
+  }
+  main .mainBlock .leftBlock p {
+    text-align: center;
+  }
+  main .mainBlock .rightBlock img {
+    width: 300px;
+  }
+  section .sectionCard {
+    padding: 32px 0;
+  }
+  section .sectionCard .card.card1 {
+    flex-direction: column;
+    row-gap: 46px;
+  }
+  section .sectionCard .card.card1 .imgBlock img {
+    width: 250px;
+  }
+  section .sectionCard .card.card1 p {
+    max-width: 328px;
+    font-size: 16px;
+    text-align: center;
+  }
+  section .sectionCard .card.card2 {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  section .sectionCard .card.card2 .imgBlock img {
+    width: 333px;
+  }
+  section .sectionCard .card.card2 .heading {
+    padding: 31px 0px;
+  }
+  section .card.card3 {
+    text-align: center;
+    flex-direction: column;
+  }
+  section .card.card3 .headingSection h3 {
+    font-size: 28px;
+    max-width: 470px;
+    margin-bottom: 15px;
+  }
+  section .card.card3 .rightBlock {
+    padding: 32px;
+  }
+  section .card.card3 .rightBlock img {
+    width: 300px;
+  }
+  section .parent__subscribe .subscribe {
+    padding: 7px;
+  }
+  section .parent__subscribe .subscribe .heading h6 {
+    font-size: 30px;
+  }
+  section .parent__subscribe .subscribe .heading p {
+    font-size: 13px;
+  }
+  section .parent__subscribe .subscribe form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  section .parent__subscribe .subscribe form input {
+    width: 300px;
+  }
+  section .parent__subscribe .subscribe form a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    width: 300px;
+    height: 72px;
+  }
+  footer .footer__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  footer .footer__block .top__block {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  footer .footer__block .top__block .item {
+    row-gap: 20px;
+  }
+  footer .footer__block .top__block .item span {
+    font-size: 15px;
+  }
+  footer .footer__block .top__block .item.items span {
+    font-size: 20px;
+  }
+  footer .footer__block .top__block .item.items .footer__text p {
+    font-size: 15px;
+  }
+  footer .footer__block .ration {
+    width: 300px;
+  }
+  footer .footer__block .contact {
+    flex-direction: column;
+    row-gap: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .footer__block .contact .contactUs {
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  .footer__parent .top__block {
+    flex-direction: column;
+    row-gap: 40px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 425px) {
+  .mobile-menu {
+    gap: 32px;
+  }
+}/*# sourceMappingURL=style.css.map */

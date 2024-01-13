@@ -1,0 +1,39 @@
+$gradientColor:  linear-gradient(10deg, #FF52AF 0%, #9F53FF 100%);
+$titleColor: #220953;
+$whiteColor: #fff;
+$textColor: #4B3E65;
+$firstColorLight: #E5D9FD;
+$firstColorDark: #1E0849;
+$textColorLight: #A197B4;
+
+
+.container {
+    max-width: 1440px;
+    padding: 0 40px;
+    margin: auto;
+}
+
+@mixin flex ($justify, $alignIntems) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $alignIntems;
+}
+
+.button {
+    padding: 16px 28px;
+    display: inline-flex;
+    padding: 16px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    text-decoration: none;
+    border-radius: 64px;
+    background: $gradientColor;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+
+    &:hover {
+        background: #00f;
+    }
+}
